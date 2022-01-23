@@ -7,7 +7,8 @@ const Switch = ({isOn,toggle}) => {
   
     console.log(isOn);
    var buttonclick=()=>{
-    isOn==='ON'?setcolor("#FFF323"):setcolor("#191919");
+   // isOn==='OFF'?setcolor("#FFF323"):setcolor("#191919");
+    isOn==='OFF'?setcolor("#FFF323"):setcolor("#191919");
     toggle()
    }
 
