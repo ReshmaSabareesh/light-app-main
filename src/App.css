@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.lightContainer {
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  height: 300px;
+  border: solid 3px black;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 300px auto
+}
+.lightContainer::-webkit-scrollbar {
+  display: none;
+}
